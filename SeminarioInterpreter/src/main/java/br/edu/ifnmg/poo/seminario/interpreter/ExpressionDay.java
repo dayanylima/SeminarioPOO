@@ -1,9 +1,13 @@
 package br.edu.ifnmg.poo.seminario.interpreter;
 
+/**
+ *
+ * @author dayan
+ */
 public class ExpressionDay extends Expression {
 
     @Override
-    public void avaliar(Context context) {
+    public void interpret(Context context) {
 
         String expressao = context.getExpressao();
 

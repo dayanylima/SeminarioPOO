@@ -7,7 +7,7 @@ package br.edu.ifnmg.poo.seminario.interpreter;
 public class Separador extends Expression {
 
     @Override
-    public void avaliar(Context context) {
+    public void interpret(Context context) {
 
         String expressao = context.getExpressao();
 

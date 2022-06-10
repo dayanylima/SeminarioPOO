@@ -6,5 +6,5 @@ package br.edu.ifnmg.poo.seminario.interpreter;
  */
 public abstract class Expression {
 
-    abstract public void avaliar(Context context);
+    abstract public void interpret(Context context);
 }

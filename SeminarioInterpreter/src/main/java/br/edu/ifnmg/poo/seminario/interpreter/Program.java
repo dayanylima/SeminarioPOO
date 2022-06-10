@@ -30,11 +30,9 @@ public class Program {
 
             if ("DD".equals(item)) {
                 expressoes.add(new ExpressionDay());
-            } 
-            else if ("MM".equals(item)) {
+            } else if ("MM".equals(item)) {
                 expressoes.add(new ExpressionMonth());
-            } 
-            else if ("YYYY".equals(item)) {
+            } else if ("YYYY".equals(item)) {
                 expressoes.add(new ExpressionYear());
             }
 
@@ -44,7 +42,7 @@ public class Program {
 
         for (var obj : expressoes) {
 
-            obj.avaliar(context);
+            obj.interpret(context);
 
         }
 
