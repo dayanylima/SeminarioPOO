@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 public class Context {
 
-    public String expressao;
+    private String expressao;
     private LocalDateTime data;
 
     public Context(LocalDateTime data) {
